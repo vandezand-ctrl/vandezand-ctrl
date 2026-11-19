@@ -4,7 +4,7 @@ I improve how teams work by redesigning processes and automating them with AI. W
 
 How I work: I identify the business need, discuss it with management and other stakeholders, I decide how it works, and with AI I write the code. I own the data model, the roles and permissions, the approval steps and the rollout.
 
-The repositories behind the work below are private, because they hold company and client logic and data. This page describes them, and I am happy to walk through any of them in a call. For a public example of how I approach workflow automation, see [workflow-automation-skills](https://github.com/vandezand-ctrl/workflow-automation-skills).
+The repositories behind the work below are private, because they hold company and client logic and data. This page describes them, and I am happy to walk through any of them in a call. Case study: [the hiring and onboarding tool I built for CarePal / Impact Guru](https://vandezand-ctrl.github.io/hiring-tool/). For a public example of how I approach workflow automation, see [workflow-automation-skills](https://github.com/vandezand-ctrl/workflow-automation-skills).
 
 ## Workflow automation with Claude skills
 
@@ -30,15 +30,15 @@ I build with AI coding tools inside a fixed review process, run through skills i
 
 Four applications built this way are in daily use:
 
+### Hiring and onboarding tool for CarePal / Impact Guru (India, about 500 employees)
+Takes every field-sales hire from requisition to the first day in the field, for two business units and 35 cities: requisition approvals, AI CV screening with a score and reasons and the recruiter deciding, HR-round checklists, interview rounds, offer and documents, onboarding, and headcount against plan by city, synced with the company's hiring plan spreadsheet. Built working directly with the CEO. 37 active users in four roles (admin, approver, talent acquisition, head of department); 214 candidates and 68 requisitions. After it went live, the HR team went from six to four people while HR productivity went up.
+Google sign-in; users scoped by city and business unit.
+TypeScript, JavaScript · 440+ commits · **[Read the case study](https://vandezand-ctrl.github.io/hiring-tool/)**
+
 ### Internal operations platform for an international consultancy firm
 Started as a resource planner: staffing plans, availability, utilization and billability per person against targets, and income reporting, read from the finance system's exports. It has grown into the firm's operations platform: project tracking and project finances by phase, a CRM for business development, a learning academy with courses and progress per person, and a build board for the AI-coded tools. Used by management, HR, finance and every project manager; specific modules by the whole team.
 Roles: regular, project manager, country lead, finance, HR, partnerships, management, IT lead. Working days and leave per country are calculated, not typed.
 HTML, Python, JavaScript, TypeScript · 2,700+ commits
-
-### Hiring and onboarding tool for a 500-employee health-finance company (India)
-Tracks field-sales hiring from requisition to joining: requisition approvals, candidate pipeline, AI CV screening with the recruiter deciding, interview rounds, offer, onboarding, and headcount against plan by city, synced with the company's planning sheet. Built working directly with the CEO. 37 active users in four roles (admin, approver, talent acquisition, head of department); 214 candidates and 68 requisitions across two business units. After it went live, the HR team went from six to four people while HR productivity went up.
-Google sign-in; users scoped by city and business unit.
-TypeScript, JavaScript · 440+ commits
 
 ### Gap-assessment tool for a development bank's SME accelerator
 A six-module assessment instrument (finance, governance, environmental and social standards, talent, digital, impact) with a pre-condition check, 140 lines of enquiry, per-company scorecards and a portfolio table, used by the bank and two advisory firms. AI reads meeting notes, emails and uploaded documents and proposes updates to scores and text; a named approver accepts or rejects each change.
